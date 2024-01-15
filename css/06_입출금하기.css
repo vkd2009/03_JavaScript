@@ -1,0 +1,11 @@
+.main{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+div > div{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}

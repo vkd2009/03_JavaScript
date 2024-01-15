@@ -42,19 +42,30 @@
         * 비밀번호가 일치하지 않을 경우
           -> alert("비밀번호가 일치하지 않습니다") 출력
       </pre>
-
+      
       <button onclick="test()">연습용 출금 버튼</button> <br>
       <hr>
       <hr>
+    
+    
+
+
+    <div class="main">
+      <div class="Balance">
+        <h1>잔액 : <span id="balance">10000원</span></h1>
+      </div>
+      <div class="Amount">
+        금액  : <label for="amount"></label>
+                <input type="number" id="amount">
+      </div>
+      <div class="buttons">
+        <button onclick="deposit()">입금</button> 
+        <button onclick="withdrawal()">출금</button>
+      </div>
+    </div>
+
+
       
-
-      <h1>잔액 : <span id="balance">0 원</span></h1>
-
-        금액 : <input type="number" id="amount"> 
-       <br><br>
-
-      <button onclick="deposit()">입금</button> 
-      <button onclick="withdrawal()">출금</button>
 
 
 
