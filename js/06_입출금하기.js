@@ -24,17 +24,19 @@ function test(){
 
 /* 입/출금 하기 */
 
-let balance = 10000; 
-const deposit = document.getElementById("deposit"); 
-const withdraial = document.getElementById("withdrawal"); 
-const amount = document.getElementById("amount");
+const bal = document.getElementById('balance'); // 잔액
+const amount = document.getElementById('amount'); // 금액
+let balance = 10000;
+const password = '1234';
 
+bal.innerText = balance; // 잔액 초기값
 
-function deposit(){ // 입금
-  const v1 = Number(deposit.value);
-  balance += v1;
-  
-  amount.innerText = balance;
+function deposit(){
+    if(bal.value.lenght == 0){
+        alert("금액을 입력해주세요");
+    }else{
+        balance += Number(amount.value);
+        bal =
 
-  
+    }
 }
