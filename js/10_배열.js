@@ -205,6 +205,7 @@ function orderFn(){
         // - 배열 내에 "값"이 존재하는 index 번호를 반환
         // - 없다면 -1 반환
         let idx = menus.indexOf(selectMenu);
+        
 
 
         // 잘못 주문한 경우 dix == -1
@@ -262,7 +263,7 @@ function orderFn(){
 
         let tr = "<tr>"
 
-        tr += `<td>${menus[i]}</td>`;
+        tr += `<td>${menus[i]}</td>`; 
         tr += `<td>${prices[i]}</td>`;
         tr += `<td>${counts[i]}</td>`;
 
