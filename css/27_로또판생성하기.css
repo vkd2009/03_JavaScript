@@ -1,0 +1,16 @@
+#box{
+    border : 1px solid black;
+    height :700px;
+    width : 300px
+}
+
+.number{
+    
+         border: 1px solid black;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        display: flex;
+        
+    
+}
