@@ -1,0 +1,35 @@
+#numberBoard{
+    box-sizing: border-box;
+    
+    width : 200px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+
+}
+
+.numbers{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+
+    
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    user-select : none
+
+}
+
+.numbers:hover{
+    background-color: plum;
+  }
+
+.numbers:active{
+    background-color: orangered;
+}
